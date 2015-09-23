@@ -1,0 +1,143 @@
+/*********
+UNIVERSAL
+*********/
+
+*{
+    margin: 0;
+}
+
+body {
+    margin: 0;
+}
+
+/*********
+NAV-BAR
+*********/
+
+nav{
+    background-color: black;
+    height: 45px;
+    margin: 0;
+    position: fixed;
+    width: 100%;
+
+}
+
+nav ul{
+    color: white;
+    list-style: none;
+}
+
+.nav-links{
+    padding: 10px 0;
+}
+
+#logo{
+    float: left;
+}
+
+#links{
+    float: right;
+}
+
+#links li{
+    display: inline
+}
+
+/*********
+GENERIC
+*********/
+
+#generic{
+    padding-top: 50px;
+    padding-bottom: 15px;
+}
+
+/*********
+IMAGES
+*********/
+
+.image{
+    padding: 15px 0;
+    width: 100%
+}
+
+.image img{
+    width: 100%
+}
+
+/*********
+TABLES
+*********/
+
+table{
+    margin-bottom: 15px;
+}
+
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 15px;
+}
+
+/*********
+LISTS
+*********/
+
+#ul, #ol{
+    padding-bottom: 15px;
+}
+
+/*********
+BLOCK ELEMENTS, COLORS, CLASSES
+*********/
+
+.block{
+    border: 1px solid black;
+    padding-bottom: 15px;
+}
+
+#div{
+    background-color: blue;
+}
+
+#paragraph{
+    background-color: #f1f1f1;
+}
+
+#h1{
+    background-color: rgb(98,0,0);
+}
+
+/*********
+FORMS
+*********/
+
+form{
+    border: 1px solid black;
+    padding: 5px;
+    margin: 15px 0;
+}
+
+/*********
+ARTICLE and SECTION
+*********/
+
+article{
+    padding: 15px 0;
+}
+
+/*********
+FOOTER
+*********/
+
+footer{
+    background-color: black;
+    color: white;
+    height: 45px;
+    text-align: center;
+}
+
+footer p{
+    padding-top: 10px;
+}
