@@ -10,6 +10,19 @@ body {
     margin: 0;
 }
 
+a{
+    text-decoration: none;
+    color: blue
+}
+
+a:hover{
+    color: gold;
+}
+
+a:visited{
+    color: red;
+}
+
 /*********
 NAV-BAR
 *********/
@@ -34,10 +47,12 @@ nav ul{
 
 #logo{
     float: left;
+    margin-left: 25px;
 }
 
 #links{
     float: right;
+    margin-right: 25px;
 }
 
 #links li{
